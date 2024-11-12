@@ -37,12 +37,12 @@ public class Table {
         int ad = 0;
 
         for (int i = 1; i <= number ; i++) {
-
             for (int j = 1; j <= operation; j++) {
                 ad = i + j;
 
                 System.out.println(i + "+" + j + "=" + ad);
             }
+
             System.out.println("======================");
         }
         return ad;
